@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <title>Calculadora básica</title>
+  </head>
+  <body>
+    <h1>Calculadora básica</h1>
+
+    <form>
+      <label for="operacion">Operación:</label>
+      <select id="operacion">
+        <option value="suma">Suma</option>
+        <option value="resta">Resta</option>
+        <option value="multiplicacion">Multiplicación</option>
+        <option value="division">División</option>
+      </select>
+      <br />
+      <label for="numeros">Números:</label>
+      <input type="text" id="numeros" />
+      <br />
+      <input type="button" value="Calcular" onclick="calcular()" />
+      <input type="reset" value="Limpiar" />
+    </form>
+
+    <div id="resultado"></div>
+
+    <script src="./js/main.js"></script>
+
+
+ 
+  </body>
+</html>
